@@ -1,20 +1,17 @@
 import Layout from "../component/Layout";
 
-const Content = () => {
-    return(
-        <>
-            <h1>Mi App!</h1>
-            <p>jiji</p> 
-        </>
-    );
-}
+import ReactDOM from 'react-dom'
+import React from 'react';
 
-const App = () => {
-    return(
-        <Layout>
-            <Content/>
-        </Layout>
-    );
-}
 
-export default App;
+function shoot() {
+    alert("Great Shot!");
+  }
+  
+  const myelement = () => {
+    return(
+    <button onClick={shoot}>Take the shot!</button>
+  );
+    }
+
+    export default xd
