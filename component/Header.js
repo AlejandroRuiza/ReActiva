@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import img from '../public/logo.png'
 
 const linkStyle = {
     marginRight: 15
